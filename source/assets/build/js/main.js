@@ -14725,8 +14725,14 @@ var axios = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
       var form = e.target;
       var formData = new FormData(form); // console.log(JSON.stringify(Object.fromEntries(formData)));
 
+      var okay = JSON.stringify(Object.fromEntries(formData)); // console.log(okay);
+      // console.log(this.encode({
+      //     "form-name": "contact",
+      //     ...okay
+      // }));
+
       axios.post("/", this.encode(_objectSpread({
-        "form-name": "ask-question"
+        "form-name": "contact"
       }, JSON.stringify(Object.fromEntries(formData)))), axiosConfig).then(function (res) {
         console.log("successfully submitted"); // console.log(res.request.response)
 

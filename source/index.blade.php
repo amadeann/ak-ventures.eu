@@ -85,7 +85,6 @@
                     v-if="slotProps.showForm"
                     data-netlify-honeypot="bot-field"
                 >
-                    <input type="hidden" name="form-name" value="contact" />
                     <div class="w-full px-4 mb-6 md:mb-0">
                         <input 
                             class="appearance-none block w-full text-gray-700 bg-cyan-200 border-b-2 border-cyan-700 py-3 px-4 mb-3 leading-tight focus:outline-none text-xl rounded-none" 

@@ -27,10 +27,16 @@ export default {
             let form = e.target;
             let formData = new FormData(form);
             // console.log(JSON.stringify(Object.fromEntries(formData)));
+            let okay = JSON.stringify(Object.fromEntries(formData));
+            // console.log(okay);
+            // console.log(this.encode({
+            //     "form-name": "contact",
+            //     ...okay
+            // }));
             axios.post(
                 "/", 
                 this.encode({
-                    "form-name": "ask-question",
+                    "form-name": "contact",
                     ...JSON.stringify(Object.fromEntries(formData))
                 }),
                 axiosConfig)
