@@ -19,12 +19,16 @@ export default {
               Object.assign(data, { [key]: val })
             }
             let endpoint = form.getAttribute("action");
+            console.log("submitting form to endpoint: " + endpoint);
             axios.post(endpoint, data)
                 .then(res => {
+                    console.log("successfully submitted");
                     // console.log(res.request.response)
                     this.showForm = false;
                 })
                 .catch(error => {
+                    console.log("failed to submit");
+                    console.log(error);
                     // handle error
                     // console.log(error);
                     this.showForm = true;
