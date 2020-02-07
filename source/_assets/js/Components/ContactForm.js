@@ -24,7 +24,7 @@ export default {
                     // console.log(res.request.response)
                     this.showForm = false;
                 })
-                .catch(function (error) {
+                .catch(error => {
                     // handle error
                     // console.log(error);
                     this.showForm = true;
