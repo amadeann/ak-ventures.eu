@@ -19,20 +19,13 @@ export default {
         submit(e) {
             // solution from:
             // https://www.netlify.com/blog/2018/09/07/how-to-integrate-netlify-forms-in-a-vue-app/
+            // combined with:
+            // https://stackoverflow.com/a/55874235/4171578
             const axiosConfig = {
                 header: { "Content-Type": "application/x-www-form-urlencoded" }
             };
-            // Solution for submitting the form from:
-            // https://stackoverflow.com/a/44760167/4171578
             let form = e.target;
             let formData = new FormData(form);
-            // console.log(JSON.stringify(Object.fromEntries(formData)));
-            let okay = JSON.stringify(Object.fromEntries(formData));
-            // console.log(okay);
-            // console.log(this.encode({
-            //     "form-name": "contact",
-            //     ...okay
-            // }));
             axios.post(
                 "/", 
                 this.encode({

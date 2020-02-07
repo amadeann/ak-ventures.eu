@@ -14715,22 +14715,15 @@ var axios = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
 
       // solution from:
       // https://www.netlify.com/blog/2018/09/07/how-to-integrate-netlify-forms-in-a-vue-app/
+      // combined with:
+      // https://stackoverflow.com/a/55874235/4171578
       var axiosConfig = {
         header: {
           "Content-Type": "application/x-www-form-urlencoded"
         }
-      }; // Solution for submitting the form from:
-      // https://stackoverflow.com/a/44760167/4171578
-
+      };
       var form = e.target;
-      var formData = new FormData(form); // console.log(JSON.stringify(Object.fromEntries(formData)));
-
-      var okay = JSON.stringify(Object.fromEntries(formData)); // console.log(okay);
-      // console.log(this.encode({
-      //     "form-name": "contact",
-      //     ...okay
-      // }));
-
+      var formData = new FormData(form);
       axios.post("/", this.encode(_objectSpread({
         "form-name": "contact"
       }, JSON.stringify(Object.fromEntries(formData)))), axiosConfig).then(function (res) {
