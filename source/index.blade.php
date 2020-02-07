@@ -76,7 +76,6 @@
         <contact-form v-slot="slotProps">
             <div>
                 <form 
-                    action="/" 
                     name="contact" 
                     method="POST" 
                     data-netlify="true" 
