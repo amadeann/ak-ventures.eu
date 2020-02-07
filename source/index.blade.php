@@ -69,7 +69,7 @@
         <p class="text-xl mb-12">If you want to get in touch with us, use the contact form below. We're always interested in new business opportunities. We read every email, and try to reply to all of them, even if the reply is "we're not interested". If you want our mailing address, email or a phone number, you can find them in the footer section of this website.</p>
         <contact-form v-slot="slotProps">
             <div>
-                <form name="contact" method="POST" data-netlify="true" class="flex flex-wrap" ref="form" v-on:submit.prevent="slotProps.submit" v-if="slotProps.showForm">
+                <form action="/" name="contact" method="POST" data-netlify="true" class="flex flex-wrap" ref="form" v-on:submit.prevent="slotProps.submit" v-if="slotProps.showForm">
                     <div class="w-full px-4 mb-6 md:mb-0">
                         <input 
                             class="appearance-none block w-full text-gray-700 bg-cyan-200 border-b-2 border-cyan-700 py-3 px-4 mb-3 leading-tight focus:outline-none text-xl rounded-none" 
