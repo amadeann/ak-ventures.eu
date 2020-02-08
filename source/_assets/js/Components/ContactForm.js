@@ -26,6 +26,7 @@ export default {
             };
             let form = e.target;
             let formData = new FormData(form);
+            console.log(JSON.stringify(Object.fromEntries(formData)));
             axios.post(
                 "/", 
                 this.encode({
