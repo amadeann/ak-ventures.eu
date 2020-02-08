@@ -14724,10 +14724,9 @@ var axios = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
       };
       var form = e.target;
       var formData = new FormData(form);
-      console.log(JSON.stringify(Object.fromEntries(formData)));
       axios.post("/", this.encode(_objectSpread({
         "form-name": "contact"
-      }, JSON.stringify(Object.fromEntries(formData)))), axiosConfig).then(function (res) {
+      }, Object.fromEntries(formData))), axiosConfig).then(function (res) {
         console.log("successfully submitted"); // console.log(res.request.response)
 
         _this.showForm = false;
