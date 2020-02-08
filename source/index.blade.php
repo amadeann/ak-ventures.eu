@@ -67,12 +67,12 @@
     <div class="container max-w-3xl flex flex-col items-center mx-auto py-20 px-4 text-center">
         <h2 class="text-3xl mb-12">Contact Us</h2>
         <p class="text-xl mb-12">If you want to get in touch with us, use the contact form below. We're always interested in new business opportunities. We read every email, and try to reply to all of them, even if the reply is "we're not interested". If you want our mailing address, email or a phone number, you can find them in the footer section of this website.</p>
-        <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+        <!-- <form name="contact" netlify netlify-honeypot="bot-field" hidden>
             <input type="text" name="full_name" />
             <input type="email" name="email" />
             <input type="text" name="phone" />
             <textarea name="message"></textarea>
-        </form>
+        </form> -->
         <contact-form v-slot="slotProps">
             <div>
                 <form 
