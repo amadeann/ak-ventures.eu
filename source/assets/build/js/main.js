@@ -14764,7 +14764,9 @@ var axios = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
+	"./GithubIcon.js": "./source/_assets/js/Components/Svg/GithubIcon.js",
 	"./LinkedinIcon.js": "./source/_assets/js/Components/Svg/LinkedinIcon.js",
+	"./StackoverflowIcon.js": "./source/_assets/js/Components/Svg/StackoverflowIcon.js",
 	"./TwitterIcon.js": "./source/_assets/js/Components/Svg/TwitterIcon.js"
 };
 
@@ -14787,6 +14789,37 @@ webpackContext.keys = function webpackContextKeys() {
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
 webpackContext.id = "./source/_assets/js/Components/Svg sync recursive ^\\.\\/.*\\.js$";
+
+/***/ }),
+
+/***/ "./source/_assets/js/Components/Svg/GithubIcon.js":
+/*!********************************************************!*\
+  !*** ./source/_assets/js/Components/Svg/GithubIcon.js ***!
+  \********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ({
+  functional: true,
+  render: function render(createElement, context) {
+    return createElement("svg", {
+      attrs: {
+        version: "1.1",
+        xmlns: "http://www.w3.org/2000/svg",
+        viewBox: "0 0 24 24",
+        "xmlns:xlink": "http://www.w3.org/1999/xlink",
+        style: "fill: currentColor;",
+        "xml:space": "preserve"
+      },
+      "class": context.data.staticClass,
+      domProps: {
+        innerHTML: "\n                <path\n                d=\"m12 .5c-6.63 0-12 5.28-12 11.792 0 5.211 3.438 9.63 8.205 11.188.6.111.82-.254.82-.567 0-.28-.01-1.022-.015-2.005-3.338.711-4.042-1.582-4.042-1.582-.546-1.361-1.335-1.725-1.335-1.725-1.087-.731.084-.716.084-.716 1.205.082 1.838 1.215 1.838 1.215 1.07 1.803 2.809 1.282 3.495.981.108-.763.417-1.282.76-1.577-2.665-.295-5.466-1.309-5.466-5.827 0-1.287.465-2.339 1.235-3.164-.135-.298-.54-1.497.105-3.121 0 0 1.005-.316 3.3 1.209.96-.262 1.98-.392 3-.398 1.02.006 2.04.136 3 .398 2.28-1.525 3.285-1.209 3.285-1.209.645 1.624.24 2.823.12 3.121.765.825 1.23 1.877 1.23 3.164 0 4.53-2.805 5.527-5.475 5.817.42.354.81 1.077.81 2.182 0 1.578-.015 2.846-.015 3.229 0 .309.21.678.825.56 4.801-1.548 8.236-5.97 8.236-11.173 0-6.512-5.373-11.792-12-11.792z\" />\n                "
+      }
+    });
+  }
+});
 
 /***/ }),
 
@@ -14814,6 +14847,37 @@ __webpack_require__.r(__webpack_exports__);
       "class": context.data.staticClass,
       domProps: {
         innerHTML: "\n                <g>\n                    <g>\n                        <rect y=\"160\" width=\"114.496\" height=\"352\"/>\n                    </g>\n                </g>\n                <g>\n                    <g>\n                        <path d=\"M426.368,164.128c-1.216-0.384-2.368-0.8-3.648-1.152c-1.536-0.352-3.072-0.64-4.64-0.896\n                            c-6.08-1.216-12.736-2.08-20.544-2.08c-66.752,0-109.088,48.544-123.04,67.296V160H160v352h114.496V320\n                            c0,0,86.528-120.512,123.04-32c0,79.008,0,224,0,224H512V274.464C512,221.28,475.552,176.96,426.368,164.128z\"/>\n                    </g>\n                </g>\n                <g>\n                    <g>\n                        <circle cx=\"56\" cy=\"56\" r=\"56\"/>\n                    </g>\n                </g>\n                "
+      }
+    });
+  }
+});
+
+/***/ }),
+
+/***/ "./source/_assets/js/Components/Svg/StackoverflowIcon.js":
+/*!***************************************************************!*\
+  !*** ./source/_assets/js/Components/Svg/StackoverflowIcon.js ***!
+  \***************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ({
+  functional: true,
+  render: function render(createElement, context) {
+    return createElement("svg", {
+      attrs: {
+        version: "1.1",
+        xmlns: "http://www.w3.org/2000/svg",
+        viewBox: "0 0 24 24",
+        "xmlns:xlink": "http://www.w3.org/1999/xlink",
+        style: "fill: currentColor;",
+        "xml:space": "preserve"
+      },
+      "class": context.data.staticClass,
+      domProps: {
+        innerHTML: "\n                    <path d=\"m6.444 14.839 10.338 2.196.433-2.089-10.338-2.212z\" />\n                    <path d=\"m6.215 17.571h10.566v2.127h-10.566z\" />\n                    <path d=\"m7.8 9.831 9.572 4.526.887-1.944-9.577-4.538z\" />\n                    <path d=\"m17.373 14.358-.001-.001-.001.001z\" />\n                    <path d=\"m2 15.429v8.571h18.992v-8.571h-2.113v6.428h-14.766v-6.428z\" />\n                    <path d=\"m10.453 5.063 8.109 6.873 1.346-1.65-8.109-6.873z\" />\n                    <path d=\"m22 8.587-6.302-8.587-1.691 1.286 6.302 8.587z\" />\n                "
       }
     });
   }
@@ -14862,7 +14926,9 @@ __webpack_require__.r(__webpack_exports__);
 window.Vue = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.js");
 var svgComponents = {
   LinkedinIcon: "linkedin-icon",
-  TwitterIcon: "twitter-icon"
+  TwitterIcon: "twitter-icon",
+  StackoverflowIcon: "stackoverflow-icon",
+  GithubIcon: "github-icon"
 };
 
 for (var key in svgComponents) {

@@ -40,6 +40,16 @@
                             <twitter-icon class="h-4 text-blue-800 mx-1"></twitter-icon>
                         </a>
                     </li>
+                    <li>
+                        <a href="https://stackoverflow.com/users/4171578/amade">
+                            <stackoverflow-icon class="h-4 text-blue-800 mx-1"></stackoverflow-icon>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/amadeann">
+                            <github-icon class="h-4 text-blue-800 mx-1"></github-icon>
+                        </a>
+                    </li>
                 </ul>
             </div>
             <div class="w-full sm:w-1/2 flex flex-col items-center">

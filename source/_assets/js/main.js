@@ -3,6 +3,8 @@ window.Vue = require("vue");
 let svgComponents = {
     LinkedinIcon: "linkedin-icon",
     TwitterIcon: "twitter-icon",
+    StackoverflowIcon: "stackoverflow-icon",
+    GithubIcon: "github-icon"
 };
 
 for (let key in svgComponents) {
